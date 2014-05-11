@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ondertitelaar", "Ondertitelaar\Ondertitelaar.csproj", "{C8C6D4A6-2E66-4924-B845-67FB40EB4F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ondertitelaar.Tests", "Ondertitelaar.Tests\Ondertitelaar.Tests.csproj", "{13556EA8-CD83-4D2B-BC6A-2E9B58654B24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C6D4A6-2E66-4924-B845-67FB40EB4F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C6D4A6-2E66-4924-B845-67FB40EB4F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C6D4A6-2E66-4924-B845-67FB40EB4F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C6D4A6-2E66-4924-B845-67FB40EB4F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13556EA8-CD83-4D2B-BC6A-2E9B58654B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13556EA8-CD83-4D2B-BC6A-2E9B58654B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13556EA8-CD83-4D2B-BC6A-2E9B58654B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13556EA8-CD83-4D2B-BC6A-2E9B58654B24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
