@@ -83,19 +83,19 @@ namespace Ondertitelaar.Controllers
 
                 listItem =
                     (from li in listItems
-                        let anchor = li.Select("a .imdb-info_sub")
-                        where anchor.Exists
-                        where anchor.GetAttribute("href") == imdbUrl
-                        select li).FirstOrDefault();
+                     let anchor = li.Select("a.imdb-info_sub")
+                     where anchor.Exists
+                     where anchor.GetAttribute("href") == imdbUrl
+                     select li).FirstOrDefault();
             }
             else
             {
                 listItem =
                     (from li in listItems
-                        let anchor = li.Select("a.recent")
-                        where anchor.Exists
-                        where anchor.Value.Contains(name)
-                        select li).FirstOrDefault();
+                     let anchor = li.Select("a.recent")
+                     where anchor.Exists
+                     where anchor.Value.Contains(name)
+                     select li).FirstOrDefault();
             }
 
             if (listItem == null)
