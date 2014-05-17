@@ -79,13 +79,11 @@ namespace Ondertitelaar.Controllers
             // If we have the imdb id, then only pick matching listItems
             if (!string.IsNullOrWhiteSpace(imdb))
             {
-                var imdbUrl = string.Format("http://www.imdb.com/title/{0}/", imdb);
-
                 listItem =
                     (from li in listItems
                      let anchor = li.Select("a.imdb-info_sub")
                      where anchor.Exists
-                     where anchor.GetAttribute("href") == imdbUrl
+                     where anchor.GetAttribute("href").Contains(imdb)
                      select li).FirstOrDefault();
             }
             else
